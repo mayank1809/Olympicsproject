@@ -3,6 +3,10 @@ import pandas as pd
 import helper
 import preprocessor
 from main import main
+import plotly.express as px       # type: ignore #allows you to create interatactive plots
+import matplotlib.pyplot as plt    #for visualization in python
+import seaborn as sns            #stats graphics
+import plotly.figure_factory as ff  # type: ignore #contains many wrapper function to maping chart
 
 
 # Load data
