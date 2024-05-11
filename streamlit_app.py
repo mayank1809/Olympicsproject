@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import helper
-import processor
+import preprocessor
 from main import main
 
 
