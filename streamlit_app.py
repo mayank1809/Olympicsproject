@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 import preprocessor
 import helper
-import plotly.express as px
+#import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly.figure_factory as ff
+#import plotly.figure_factory as ff
 
 # Read data
 df = pd.read_csv('athlete_events.csv')
