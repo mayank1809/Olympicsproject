@@ -4,7 +4,7 @@ import preprocessor
 import helper
 
 # Load data
-@st.cache
+#@st.cache
 def load_data():
     df = pd.read_csv('athlete_events.csv')
     region_df = pd.read_csv('noc_regions.csv')
