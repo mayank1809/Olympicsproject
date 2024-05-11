@@ -6,7 +6,7 @@ import helper
 # Load data
 #@st.cache
 def load_data():
-    df = pd.read_csv('athlete_events.csv')
+    df = pd.read_excel('athlete_events.xlsx')
     region_df = pd.read_csv('noc_regions.csv')
     return df, region_df
 
